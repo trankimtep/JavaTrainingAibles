@@ -1,0 +1,15 @@
+- chú ý commit: mỗi lần commit chỉ 1 ý nhỏ thôi, để sau này dò lỗi cho dễ, không được commit 1 đằng làm 1 nẻo
+- đặt tên biến phải có ý nghĩa, không dùng a, b, c ,... trừ vòng for thì được dùng i
+- bỏ hết code bằng tiếng việt
+- chú ý code làm sao để người khác có thể đọc được DỄ DÀNG 
+- 
+
+"Magic Value":
+	ví dụ: a[i]=1;   
+	==>>> thay bằng: static Integer FINAL_NUMBER=1; 
+			 a[i] = FINAL_NUMBER;
+
+((((nên đi theo hướng backend chứ không phải tập trung springboot))))
+
+
+-- tải PostgreSQL + DBearer

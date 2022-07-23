@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryGeneration",
+            "request": "launch",
+            "mainClass": "BinaryGeneration",
+            "projectName": "18-7_52151ac6"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
