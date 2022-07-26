@@ -19,18 +19,16 @@ public class Application {
             System.out.print("Your option is:");
 
             Scanner scanner = new Scanner(System.in);
-            int option = scanner.nextInt();
+            int option = Integer.valueOf(scanner.nextLine());
             System.out.println("");
 
             switch(option){
                 case 1:
                     System.out.println("Enter student info:");
                     System.out.print("id = ");
-                    String id = scanner.next();
-                    String tem1 = scanner.nextLine();
+                    String id = scanner.nextLine();
                     System.out.print("name = ");
                     String name = scanner.nextLine();
-                    //String tem2 = scanner.nextLine();
                     System.out.print("score = ");
                     String score = scanner.next();
                     Student newStudent = new Student(id, name , score);
@@ -47,7 +45,7 @@ public class Application {
                     System.out.println("Enter student info:");
                     System.out.print("id = ");
                     id = scanner.next();
-                    tem1 = scanner.nextLine();
+                    //tem1 = scanner.nextLine();
                     System.out.print("name = ");
                     name = scanner.nextLine();
                     //String tem2 = scanner.nextLine();
@@ -63,6 +61,8 @@ public class Application {
                 
                 case 5:
                     System.exit(0);
+
+                scanner.close();
             }
         }
         
